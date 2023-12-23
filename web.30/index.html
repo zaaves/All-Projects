@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <title>Owais</title>
+    <link rel="icon" href="img/undraw.png" type="image/jpeg" >
+</head>
+<body>
+    <nav class="nav_bar" id="home">
+    <div class="first">
+        <ul class="list" style="list-style-type: none">
+            <li id="liss"><a href="#home">Home</a></li>
+            <li id="liss"><a href="#recent">Recent</a></li>
+            <li id="liss"><a href="#content">Content</a></li>
+            <li id="liss"><a href="#service">Service</a></li>
+            <li id="liss"><a href="#feedback">Feedback</a></li>
+            <li id="liss"><a href="#about">About</a></li>
+        </ul>
+    </div>
+
+    <div class="second" id="recent">
+        <input class="btn_1" type="text" placeholder="Search">
+        <input type="image" name="submit" src="img/search icon.png" alt="submit_button">
+
+    </div>
+</nav>
+    <!-- nav complete -->
+
+    <section id="first_section" id="content">
+        <div class="btns" >
+            <p > <b>S</b>uccess Is Not Final</p>
+            <p> <b>F</b>ailure Is Not Fatal</p>
+            <p> <b>I</b>t Is The Courage</p>
+            <p> <b>T</b>o Continue That Counts.</p>
+
+            <button onmouseover="document.getElementById('subscribe_btn').style.color = 'red' " 
+                    onmouseout="document.getElementById('subscribe_btn').style.color = '' "
+
+                    id="subscribe_btn">Subscribe
+            </button>
+
+            <a href="https://www.youtube.com/watch?v=NKfW8ijmRQ4&ab_channel=BranchEducation" target="_blank" >
+                <button
+                    onmouseover="this.style.color = 'red' " 
+                    onmouseout="this.style.color = '' "
+                    id="Watch_btn">
+                    Watch Video
+                </button>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="second_section"> 
+
+
+    <div class="div_1" onmouseover="this.style.backgroundColor = 'red' "
+                       onmouseout="this.style.backgroundColor = '' ">    
+    <img src="img/suc1.jpg" alt="car">
+               <h1> What formulates a person successful?</h1>
+            <p1 id="para">
+                There are many ways in the world to be successful. But most people think of celebrities, artist, politicians, and businessmen whenever they heard the word success.
+                <br>
+                Moreover, they think doing what they will make you successful but that not the case. They forget the most basic thing that makes a person successful that is their hard work, dedication, and the desire to achieve their dream. More importantly, they what they like to do not what that others told them to do. Successful people do what they like to do also they do what they feel correct for their business.
+                <br>
+                If you look in the dictionary for the meaning of the word success then you will find that it means the achievement of one's goal or aim. So, basically, anyone can achieve success by simply achieving their aim or goal.
+            </p1>
+    </div>
+
+    <div class="div_2">
+    <img src="img/suc2.jpg" alt="car" >
+    <h1>5 Keys to be Success?</h1>
+            <ol class="suc_list" >
+                <li style="list-style-type: numberic;">Build high self-esteem Believe in yourself, have confidence, like and feel good about yourself, take pride in what you do.</li>
+                <li>Focus with a positive attitude Always expect the best possible outcome for what you do. Your thoughts are like magnets; you attract what you think.</li>
+                <li>Set powerful goals Give your brain a place to aim. Set goals so that you can reach them. When you do, reach a little higher.</li>
+                <li>Persevere Never quit. Never give up. Keep going and keep trying.</li>
+                <li>Maintain a healthy mind, body, and spirit Take care of yourself through a healthy diet, exercise, and say no to drugs.</li>
+
+            </ol>
+    </div>
+
+    <div class="div_3" id="services">
+    <img src="img/suc3.jpg" alt="car">
+    <h1>The Road to Success</h1>
+            <p3>I am very pleased and honored today standing in front of you my dear classmates. I would like to start with a quote: “The road to success is not straight. There is a curve called Failure, a loop called Confusion, speed bumps called Friends, red lights called Enemies, caution lights called Family. You will have flat tires called Jobs, but if you have a spare called Determination, an engine called Perseverance,
+                <br> A driver called Will Power, you will make it to a place called Success.” This quote appropriately spells the formula of success which I want to share to you today. I would like to impart three main points of the success of our family, not to inform you of my status in life but to enlighten and inspire you on the…show more content…
+            <br>
+                Hard work implies discipline, perseverance, honesty and cooperation. We all know that life is hard, life is difficult. I grew up from a middle class family- most of the time my father's compensation is not enough for us. Although we have a financial problem. <br> I'm proud to say that we are raised by our grandparents and parents who were loving, committed to the task of raising their children with high expectations and possessed a positive sense of self-regard. We were trained to do the household works.
+            </p3>
+    </div>
+    
+</section>
+
+<section id="form" id="feedback" >
+
+    <form class="mainform">
+        <div class="inin">
+
+            <legend>Feedback</legend>
+            <input type="email" name="email" id="c1" placeholder="Email Address" required>
+            <br>
+            <br>
+            <input type="number" name="number" id="c2" placeholder="Phone No" required>
+        </div>
+            <br>
+        <div class="desc">
+            <br>
+            <textarea name="textarea" id="textbox" cols="70" rows="10" placeholder="Describe"></textarea>
+            <br>
+            <input type="image" name="submit" id="btn_2" src="img/submit.png" alt="submit_button">
+        </div>
+    </form>
+</section>
+<section id="end_sec">
+<footer>
+    <p2 class="footer-text" id="about">
+    Copyright &copy; 2022 - All rights reserved
+   </p2>
+</footer>
+</section>
+<script src="json.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- check out nav bar should id do it with position sticky or fixed ... -->

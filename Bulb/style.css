@@ -1,0 +1,35 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+ 
+}
+.container img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+}
+.bulbcont{
+    height: 112px;
+    width: 139px;
+    position: absolute;
+    top: 6%;
+    left: 38%;
+    border-radius: 57px 51px 0px 0px;
+}
+button{
+    padding: 20px 20px;
+    border-radius: 50%;
+    border: none;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    left: 48%;
+    cursor: pointer;
+}

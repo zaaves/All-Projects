@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.container{
+    height: 80vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+}
+.secondcontainer{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+}
+.sun{
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    background-color: coral;
+    border-radius: 90%;
+    animation: uprise 3s ease-in-out 0s forwards ;
+    z-index: -1;
+}
+
+@keyframes uprise {
+    25%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-50%);
+    }
+}

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1600px){
+    .firstsec{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle{
+        margin: auto;
+    }
+    .rightsec{
+        margin: auto;
+    }
+    .rightsec img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1153px){
+    .secondsec{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondlogin{
+        margin: auto;
+    }
+    .secondlinks{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mediaone{
+        display: flex;
+        flex-direction: column;
+    }
+    .ulone,.ultwo{
+        width: 95%;
+    }
+    .mediaone ul li{
+        font-size: 30px;
+    }
+    .mediatwo{
+        display: none;
+    }
+}
+
+@media only screen and  (max-width){
+    .mediaone,.mediatwo{
+        display: flex;
+        flex-direction: column;
+    }
+}

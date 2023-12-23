@@ -1,0 +1,87 @@
+Display 
+
+1:- flex
+2:- inline-flex 
+
+Flex direction
+(sets the direction of the main axis.)
+
+1:- row
+2:- row-reverse
+3:- column
+4:- column-reverse
+
+Flex-wrap
+(* control the wrapping of flex items within the container)
+(it always occurs from last element (by default))
+
+1:- no-wrap
+2:- wrap
+3:- wrap-reverse
+
+Flex-flow
+(short hand for flex warp and flex direction)
+ex:-
+flex-flow => <flex-direction> <flex-warp>
+
+Justify-container
+(works on horizontal (main axis of the container))
+(align items and distribute any extra spacing in the parent container . The alignment is always along the main axis.)
+
+1:- flex-start
+2:- flex-end
+3:- center
+4:- space-evenly
+5:- space-around
+6:- space-between
+
+Align-items
+(works on vertical (cross axis of the container))
+
+1:- stretch
+2:- flex-start
+3:- flex-end
+4:- center
+5:- baseline
+
+Align-content
+(lines of content along the cross axis (mix of Justify-content and align-items))
+(*aligns lines of content along the cross axis and distribute any extra spacing in the parent container)
+
+1:- flex-start
+2:- flex-end
+3:- center
+4:- space-between
+5:- space-around
+6:- stretch
+
+Flex-items-properties
+
+1:- order
+(control the order of items in the flex container (accept integer value))
+
+2:- flex-grow
+(increase a specific element to fill the empty space)
+(*dictates what amount of the available space inside the flex container the item should take up.)
+(relative to the other items in the container.)
+(defaut value is 0 )->items do not grow
+(flex-grow value of 1 -> flex item grow evenly.)
+
+3:- flex-shrink
+(dictates the shrink factor of the flex items when the default size of flex item is larger than the flex container)
+(relative to the other items in the container)
+(default value is 1.)
+
+4:- flex-basis
+(set the initial size of a flex item.)
+(pixels,percentages or relative units.)
+(default value is auto)
+
+5:- flex
+(shorthand for flex-grow flex-shrink flex-basis)
+( flex => <value of flex-grow> <value of flex-shrink> <value of flex-basis> )
+
+6:- align-self
+(align the items individually.)
+(value like auto, flex-start,flex-end,center and stretch.)
+(overrides the align-items value of the flex container.)

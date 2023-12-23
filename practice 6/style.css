@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: grey;
+    height: 75%;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden ;
+    border: 5px solid black;
+    overflow-y: scroll;
+    
+}
+.subcontainer{
+    height: 200vh;
+    width: 95%;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+
+}

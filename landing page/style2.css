@@ -1,0 +1,83 @@
+/* second section */
+
+.secondsec{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #F0ECCF;
+}
+.secondlogin{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.param{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+form{
+    padding: 15%;
+    display: flex;
+
+}
+#forminp{
+    height: 50px;
+    width: 400px;
+    margin: 30px 0;
+    font-size: 18px;
+}
+.btnn34{
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.check{
+    align-items: center;
+    justify-content: center;
+}
+.checkbox{
+    font-size: 12px;
+}
+fieldset{
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+legend{
+    padding: 25px;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+#checkbox{
+    margin: 12px;
+}
+.secondlinks{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.secondlinks ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: flex-start;
+}
+.mediaone,.mediatwo{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.secondlinks ul li:hover{
+    border-bottom: 3px solid gray;
+    border-radius: 0  2px 2px;
+}
