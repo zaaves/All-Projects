@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: cadetblue;
+    gap: 20px;
+    font-size: 22px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.guessField,.guessSubmit{
+    height: 40px;
+    width: 190px;
+    border-radius: 45px;
+    border: none;
+    text-align: center;
+    font-size: 21px;
+}
+.resultparas{
+    position: relative;
+    top: 40px;
+}

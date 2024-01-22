@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e10303;
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: start;
+    width: 50%;
+}
+
+ul.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li#liss{
+    padding: 20px;
+    font-size: 19px;
+}
+
+.second{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.second input{
+    margin: 5px;
+    height: 30px;
+    text-align: center;
+}
+
+.btn_1{
+    border-radius: 30px;
+    border: none;
+}
+
+#first_section{
+    height: 100vh;
+    background-image: url(img/succ.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#second_section img{
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.div_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    margin-top: 23px;
+}
+
+.div_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 29%;
+    margin-top: -68px;
+}
+
+.div_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+    margin-top: -15px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    background-color: #e10303;
+}
+
+.mainform input{
+    padding: 6px;
+}
+
+.mainform input, textarea{
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+}
+
+.desc input{
+    margin-top: 35px;
+    height: 48px;
+    width: 150px;
+    border-radius: 35px;
+}
+
+legend{
+    font-size: 32px;
+    font-family: system-ui;
+    margin-bottom: 14px;
+}
+
+.inin input{
+    width: 80%;
+    text-align: center;
+}
+
+p2.footer-text{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+p{
+    font-family: fantasy;
+    font-size: 30px;
+    color: rgb(238, 230, 230);
+}
+
+b{
+    color: #e10303;
+    font-size: 37px;
+}
+
+button#subscribe_btn,#Watch_btn{
+    margin-top: 10px;
+    padding: 4px;
+    border: solid 2px white;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.btns{
+   margin: 0 0 0 -65%;
+   cursor: pointer;
+}
+
+.list li a{
+    color: white;
+}
+
+.suc_list li ,p1,p3{
+    margin: 10px;
+}
+
+.list li a:link{
+    text-decoration: none;
+}
+
+.list li a:visited{
+    text-decoration: none;
+}
+
+.list li a:hover{
+    color: black;
+}
+
+.list li a:active{
+    text-decoration: none;
+}
+
+/* #subscribe_btn:hover{
+    color: green;   
+} */
+/* ------------------------------------------------------------ */

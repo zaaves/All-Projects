@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.clock {
+    display: flex;
+    font-size: 2em;
+    background-color: rgb(0, 0, 0);    
+    padding: 45px;
+    border-radius: 45px;
+    color: cadetblue;
+    font-size: 55px;
+    box-shadow: inset -2px -2px 5px white, inset 3px 3px 7px rgba(0, 0, 0, 0.253);
+}
+.time {
+    margin: 0 10px;
+}
+.ampm {
+    margin: 0 10px;
+}

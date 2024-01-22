@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Merriweather:wght@700&family=Raleway:wght@500&family=Rethink+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.favicon {
+    border-radius: 50%;
+}
+
+nav {
+    color: black;
+    background-color: #f5eed2;
+    height: 70px;
+    display: flex;
+    /* flex-direction: row; */
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    margin-right: 30px;
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    gap: 34px;
+    color: black;
+}
+
+nav ul li {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+    justify-self: flex-end;
+    font-size: 21px;
+    color: white;
+    padding: 8px 12px;
+    box-shadow: inset -3px -3px 5px #fffaec, inset 3px 3px 5px rgba(0, 0, 0, 0.199);
+    border-radius: 45px;
+    text-decoration: none;
+}
+nav ul li:hover{
+    box-shadow:  -3px -3px 5px #fffaec,  3px 3px 5px rgba(0, 0, 0, 0.199);
+    border-radius: 45px;
+}
+nav ul li a,
+a:active,
+a:visited {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.burger {
+    margin-left: 30px;
+    height: 60px;
+    /* background-color: white; */
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bug {
+    background-color: black;
+    height: 5px;
+    width: 30px;
+    transition: all ease 0.55s;
+}
+
+.active {
+    transform: rotate(45deg) translate(0px, 11px);
+}
+
+.active1 {
+    transform: rotate(-45deg) translate(0px, -11px);
+}
+
+.bug3.active3 {
+    opacity: 0;
+}
+
+.main {
+    height: calc(100vh - 70px);
+    background-color: #DCF2F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 45px;
+    padding: 0 25px;
+}
+
+.card h1 ,p{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+}
+.card p{
+    position: relative;
+    top: -23px;
+    text-align: justify;
+    padding: 0 67px;
+}
+
+.card {
+    border: none;
+    color: black;
+    border-radius: 45px;
+    height: 60%;
+    background-color: cornsilk;
+    box-shadow: inset -3px -3px 5px #f4fffe, inset 3px 3px 5px rgba(0, 0, 0, 0.185);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.card h1,
+p {
+    text-align: center;
+}
+.imgs {
+    height: 200px;
+    width: 250px;
+    border-radius: 45px;
+    background-color: white;
+    overflow: hidden;
+}
+.imgs img {
+    border-radius: 45px;
+    height: 200px;
+    width: 250px;
+    transition: all ease 0.6s;
+}
+.card img:hover {
+    transform: scale(1.2);
+}
+
+/* -------------------------------------------------------------------- */
+
+
+.main2 {
+    height: 100vh;
+    background-color: #7FC7D9;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+.submain2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    float: left;
+}
+.glass{
+    box-shadow:inset -3px -3px 7px #a6e6f7,inset 3px 3px 7px rgba(0, 0, 0, 0.185);
+    height: 376px;
+    width: 500px;
+    border-radius: 45px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.glass:hover{
+    box-shadow: 3px -3px 7px #a6e6f7, -3px 3px 7px rgba(0, 0, 0, 0.185);
+}
+.glass h1{
+    color: #F5EED2;
+    background-color: black;
+    padding: 2px 12px;
+    border-radius: 34px;
+}
+.glass h1,ul{
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+}
+.glass ul li{
+    margin: 12px;
+    border-radius: 34px;
+    background-color: #F5EED2;
+    padding: 7px;
+}
+button{
+    padding: 12px 24px;
+    font-size: 19px;
+    color: black;
+    background-color: transparent;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+    box-shadow:inset -3px -3px 7px #abdae6,inset 3px 3px 7px rgba(0, 0, 0, 0.274);
+}
+button:hover{
+    box-shadow: 3px -3px 5px #b5dde7, 4px 4px 7px rgba(0, 0, 0, 0.315);
+}
+.btn{
+    display: flex;
+    margin-top: 45px;
+    gap: 30px;
+}
+.backtri {
+    height: 130%;
+    width: 53vw;
+    background-color: black;
+    transform: translate(-250px,-98px) rotate(224deg);
+    z-index: 1;
+}
+
+/* -------------------------------------------------------------------- */
+
+.third{
+    height: 100vh;
+    background-color: #f0c03c;
+}
