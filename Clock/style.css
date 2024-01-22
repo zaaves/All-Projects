@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: cadetblue;
+}
+.banner span{
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.clock{
+    background-color: cadetblue;
+    height: 7vh;
+    width: 173px;
+    border: none;
+    border-radius: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow:inset 3px 3px 5px rgba(0, 0, 0, 0.356),inset -3px -3px 7px rgb(122, 170, 172);
+}
